@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C393F4521749BAB7006CAEAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C393F4511749BAB7006CAEAC /* UIKit.framework */; };
+		C393F4541749BAB7006CAEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C393F4531749BAB7006CAEAC /* Foundation.framework */; };
+		C393F4561749BAB7006CAEAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C393F4551749BAB7006CAEAC /* CoreGraphics.framework */; };
+		C393F45C1749BAB7006CAEAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C393F45A1749BAB7006CAEAC /* InfoPlist.strings */; };
+		C393F45E1749BAB7006CAEAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C393F45D1749BAB7006CAEAC /* main.m */; };
+		C393F4621749BAB7006CAEAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C393F4611749BAB7006CAEAC /* AppDelegate.m */; };
+		C393F4641749BAB7006CAEAC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C393F4631749BAB7006CAEAC /* Default.png */; };
+		C393F4661749BAB7006CAEAC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C393F4651749BAB7006CAEAC /* Default@2x.png */; };
+		C393F4681749BAB7006CAEAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C393F4671749BAB7006CAEAC /* Default-568h@2x.png */; };
+		C393F46B1749BAB7006CAEAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C393F46A1749BAB7006CAEAC /* ViewController.m */; };
+		C393F46E1749BAB7006CAEAC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C393F46C1749BAB7006CAEAC /* ViewController.xib */; };
+		C393F4761749BB88006CAEAC /* UIDevice+ScreenAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C393F4751749BB88006CAEAC /* UIDevice+ScreenAdapter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C393F44E1749BAB7006CAEAC /* ScreenAdapterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenAdapterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C393F4511749BAB7006CAEAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C393F4531749BAB7006CAEAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C393F4551749BAB7006CAEAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C393F4591749BAB7006CAEAC /* ScreenAdapterTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenAdapterTest-Info.plist"; sourceTree = "<group>"; };
+		C393F45B1749BAB7006CAEAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C393F45D1749BAB7006CAEAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C393F45F1749BAB7006CAEAC /* ScreenAdapterTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenAdapterTest-Prefix.pch"; sourceTree = "<group>"; };
+		C393F4601749BAB7006CAEAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C393F4611749BAB7006CAEAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C393F4631749BAB7006CAEAC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C393F4651749BAB7006CAEAC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C393F4671749BAB7006CAEAC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C393F4691749BAB7006CAEAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C393F46A1749BAB7006CAEAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C393F46D1749BAB7006CAEAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C393F4741749BB88006CAEAC /* UIDevice+ScreenAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ScreenAdapter.h"; sourceTree = "<group>"; };
+		C393F4751749BB88006CAEAC /* UIDevice+ScreenAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ScreenAdapter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C393F44B1749BAB7006CAEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C393F4521749BAB7006CAEAC /* UIKit.framework in Frameworks */,
+				C393F4541749BAB7006CAEAC /* Foundation.framework in Frameworks */,
+				C393F4561749BAB7006CAEAC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C393F4451749BAB7006CAEAC = {
+			isa = PBXGroup;
+			children = (
+				C393F4571749BAB7006CAEAC /* ScreenAdapterTest */,
+				C393F4501749BAB7006CAEAC /* Frameworks */,
+				C393F44F1749BAB7006CAEAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C393F44F1749BAB7006CAEAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C393F44E1749BAB7006CAEAC /* ScreenAdapterTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C393F4501749BAB7006CAEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C393F4511749BAB7006CAEAC /* UIKit.framework */,
+				C393F4531749BAB7006CAEAC /* Foundation.framework */,
+				C393F4551749BAB7006CAEAC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C393F4571749BAB7006CAEAC /* ScreenAdapterTest */ = {
+			isa = PBXGroup;
+			children = (
+				C393F4741749BB88006CAEAC /* UIDevice+ScreenAdapter.h */,
+				C393F4751749BB88006CAEAC /* UIDevice+ScreenAdapter.m */,
+				C393F4601749BAB7006CAEAC /* AppDelegate.h */,
+				C393F4611749BAB7006CAEAC /* AppDelegate.m */,
+				C393F4691749BAB7006CAEAC /* ViewController.h */,
+				C393F46A1749BAB7006CAEAC /* ViewController.m */,
+				C393F46C1749BAB7006CAEAC /* ViewController.xib */,
+				C393F4581749BAB7006CAEAC /* Supporting Files */,
+			);
+			path = ScreenAdapterTest;
+			sourceTree = "<group>";
+		};
+		C393F4581749BAB7006CAEAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C393F4591749BAB7006CAEAC /* ScreenAdapterTest-Info.plist */,
+				C393F45A1749BAB7006CAEAC /* InfoPlist.strings */,
+				C393F45D1749BAB7006CAEAC /* main.m */,
+				C393F45F1749BAB7006CAEAC /* ScreenAdapterTest-Prefix.pch */,
+				C393F4631749BAB7006CAEAC /* Default.png */,
+				C393F4651749BAB7006CAEAC /* Default@2x.png */,
+				C393F4671749BAB7006CAEAC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C393F44D1749BAB7006CAEAC /* ScreenAdapterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C393F4711749BAB7006CAEAC /* Build configuration list for PBXNativeTarget "ScreenAdapterTest" */;
+			buildPhases = (
+				C393F44A1749BAB7006CAEAC /* Sources */,
+				C393F44B1749BAB7006CAEAC /* Frameworks */,
+				C393F44C1749BAB7006CAEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenAdapterTest;
+			productName = ScreenAdapterTest;
+			productReference = C393F44E1749BAB7006CAEAC /* ScreenAdapterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C393F4461749BAB7006CAEAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = py4nt;
+			};
+			buildConfigurationList = C393F4491749BAB7006CAEAC /* Build configuration list for PBXProject "ScreenAdapterTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C393F4451749BAB7006CAEAC;
+			productRefGroup = C393F44F1749BAB7006CAEAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C393F44D1749BAB7006CAEAC /* ScreenAdapterTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C393F44C1749BAB7006CAEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C393F45C1749BAB7006CAEAC /* InfoPlist.strings in Resources */,
+				C393F4641749BAB7006CAEAC /* Default.png in Resources */,
+				C393F4661749BAB7006CAEAC /* Default@2x.png in Resources */,
+				C393F4681749BAB7006CAEAC /* Default-568h@2x.png in Resources */,
+				C393F46E1749BAB7006CAEAC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C393F44A1749BAB7006CAEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C393F45E1749BAB7006CAEAC /* main.m in Sources */,
+				C393F4621749BAB7006CAEAC /* AppDelegate.m in Sources */,
+				C393F46B1749BAB7006CAEAC /* ViewController.m in Sources */,
+				C393F4761749BB88006CAEAC /* UIDevice+ScreenAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C393F45A1749BAB7006CAEAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C393F45B1749BAB7006CAEAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C393F46C1749BAB7006CAEAC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C393F46D1749BAB7006CAEAC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C393F46F1749BAB7006CAEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C393F4701749BAB7006CAEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C393F4721749BAB7006CAEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenAdapterTest/ScreenAdapterTest-Prefix.pch";
+				INFOPLIST_FILE = "ScreenAdapterTest/ScreenAdapterTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C393F4731749BAB7006CAEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenAdapterTest/ScreenAdapterTest-Prefix.pch";
+				INFOPLIST_FILE = "ScreenAdapterTest/ScreenAdapterTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C393F4491749BAB7006CAEAC /* Build configuration list for PBXProject "ScreenAdapterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C393F46F1749BAB7006CAEAC /* Debug */,
+				C393F4701749BAB7006CAEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C393F4711749BAB7006CAEAC /* Build configuration list for PBXNativeTarget "ScreenAdapterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C393F4721749BAB7006CAEAC /* Debug */,
+				C393F4731749BAB7006CAEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C393F4461749BAB7006CAEAC /* Project object */;
+}
